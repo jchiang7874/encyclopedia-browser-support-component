@@ -16,21 +16,50 @@ body {
 
 .browser-support {
   width: 100%;
+  padding: 30px 60px;
 }
 
-.example {
-	background-color: #3396FB;
+
+
+#example, #syntax, #more-examples, #tips {
+	width: 800px;
+	margin: 10px auto;
+	overflow: hidden;
+	border-radius: 5px;
 }
 
-.content-block {
-	border: 1px solid black;
-}
-
-.syntax, .additional-examps {
+#syntax, #more-examples, #tips {
 	background-color: #E0B9D1;
 }
 
-.syntax h3, .additional-examps h3 {
+#add-examps {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+#example, #add-examps {
+	background-color: #3396FB;
+}
+
+.content-block, .code-block {
+	border: 1px solid black;
+	width: 90%;
+	height: 200px;
+	margin: 10px auto;
+	padding: 0 5px;
+}
+
+.block-btns {
+	padding: 0 35px;
+}
+
+h3 {
 	background-color: #ff1a75;
+	padding: 5px 20px;
+	margin: 0;
+}
+h4, p {
+	padding: 0 20px;
 }
 

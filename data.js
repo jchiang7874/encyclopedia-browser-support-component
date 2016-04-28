@@ -28,11 +28,11 @@ var tips = {
 	details: [ "First details of tip", "Second details of tip"]
 }
 
-
+/*
 $(document).ready(function(){
   $('#example').load('example-template.html'); //#add-examps 
   $('#syntax').load('syntax-template.html');
   $('#more-examples').load('more-examp-template.html');
   $('#tips').load('tips-template.html');
-});
+});*/
 
