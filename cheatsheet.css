@@ -17,3 +17,20 @@ body {
 .browser-support {
   width: 100%;
 }
+
+.example {
+	background-color: #3396FB;
+}
+
+.content-block {
+	border: 1px solid black;
+}
+
+.syntax, .additional-examps {
+	background-color: #E0B9D1;
+}
+
+.syntax h3, .additional-examps h3 {
+	background-color: #ff1a75;
+}
+
