@@ -1,20 +1,24 @@
-
 /* Base Styles */
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-size: 16px;
-  line-height: 1.618em;
+    font-size: 16px;
+    line-height: 1.618em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
+
 
 /* Browser Support Molecule */
 
+
 /* Write your styles below here */
 
-.browser-support {
+
+/*.browser-support {
   width: 100%;
   padding: 30px 60px;
 }
@@ -61,5 +65,213 @@ h3 {
 }
 h4, p {
 	padding: 0 20px;
+}*/
+
+p {
+    color: #7B7B7B;
 }
 
+h3 {
+    font-weight: 400;
+}
+
+.browser-support {
+    /*border: 1px solid black;*/
+    height: auto;
+    background: #F8F8F8;
+    padding: 30px 50px;
+}
+
+.flex {
+    display: flex;
+}
+
+.content {
+    /*float: left;*/
+    flex: 3;
+    /*height: auto;*/
+}
+
+.sidebar {
+    /*float: right;*/
+    flex: 1;
+    border-left: 1px solid #FCC7DD;
+    /*height: 100%;*/
+}
+
+.browser-comp {
+    /*clear: both;*/
+    width: 100% height: 100px;
+}
+
+
+/**/
+/*HEADER*/
+/**/
+
+.header {
+    border-bottom: 1px solid #E6E2E3;
+    padding-bottom: 20px;
+    width: 95%;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 3em;
+}
+
+
+/**/
+/*EXAMPLES SECTION 1 */
+/**/
+
+.examples-sec-1 {
+    width: 95%;
+    border-bottom: 1px solid #E6E2E3;
+}
+
+.examples-sec-1-title {
+    font-weight: 400;
+    margin-bottom: -20px;
+}
+
+.example-btn {
+    border: 1px solid #00C6E3;
+    border-radius: 5px;
+    color: #00C6E3;
+    background-color: transparent;
+    outline: none;
+    margin-top: 30px;
+    width: 120px;
+    padding: 6px 0;
+    margin-right: 8px;
+}
+
+.selected {
+    position: relative;
+    background: #00C6E3;
+    color: #fff;
+}
+
+.selected:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 198, 227, 0);
+    border-top-color: #00C6E3;
+    border-width: 8px;
+    margin-left: -8px;
+}
+
+.code-block {
+    margin-top: 20px;
+    border: 1px solid #00C6E3;
+    border-radius: 5px;
+    background-color: #F4F9FC;
+    padding: 35px;
+    color: #7B7B7B;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/**/
+/*EXAMPLE*/
+/**/
+
+.example-title,
+.example-desc {
+    margin: 0;
+}
+
+.example-block {
+    margin-top: 40px;
+}
+
+
+/**/
+/*FOOTER*/
+/**/
+
+footer {
+    height: 100px;
+    width: 100%;
+}
+
+/**/
+/*COLLAPSE*/
+/**/
+
+.collapse-container {
+	border: 1px solid #E6E2E3;
+	border-radius: 5px;
+	margin-top: 30px;
+	width: 95%;
+	background-color: #FFFAFE;
+}
+
+.collapse-title {
+	background-color: #FF73B7;
+	color: #fff;
+	/*margin-top: -21px;*/
+	/*line-height: 1em;*/
+	border-radius: 5px;
+	/*height: 50px;*/
+	padding-left: 35px;
+	position: relative;
+}
+
+.collapse-title h2 {
+	display: inline-block;
+	font-weight: 400;
+	/*border: 1px solid black;*/
+}
+
+.collapse-title .arrow-up {
+	position: absolute;
+	right: 0;
+	/*vertical-align: middle;*/
+	display: inline-block;
+	/*border: 1px solid black;*/
+	line-height: 63px;
+	margin-right: 35px;
+	color: #fff;
+}
+
+.collapse-content {
+	margin: 35px;
+}
+
+.collapse-content-title {
+
+}
+
+.collapse-content-desc-1 {
+
+}
+
+.collapse-content-desc-2 {
+
+}
+
+/*COLORS*/
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.light-pink {
+    background-color: #FFF7FC;
+}
+
+.cyan {
+    background-color: cyan;
+}
