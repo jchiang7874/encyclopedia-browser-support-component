@@ -11,62 +11,6 @@ body {
     font-weight: 400;
 }
 
-
-/* Browser Support Molecule */
-
-
-/* Write your styles below here */
-
-
-/*.browser-support {
-  width: 100%;
-  padding: 30px 60px;
-}
-
-
-
-#example, #syntax, #more-examples, #tips {
-	width: 800px;
-	margin: 10px auto;
-	overflow: hidden;
-	border-radius: 5px;
-}
-
-#syntax, #more-examples, #tips {
-	background-color: #E0B9D1;
-}
-
-#add-examps {
-	width: 90%;
-	margin: 0 auto;
-}
-
-
-#example, #add-examps {
-	background-color: #3396FB;
-}
-
-.content-block, .code-block {
-	border: 1px solid black;
-	width: 90%;
-	height: 200px;
-	margin: 10px auto;
-	padding: 0 5px;
-}
-
-.block-btns {
-	padding: 0 35px;
-}
-
-h3 {
-	background-color: #ff1a75;
-	padding: 5px 20px;
-	margin: 0;
-}
-h4, p {
-	padding: 0 20px;
-}*/
-
 p {
     color: #7B7B7B;
 }
@@ -76,7 +20,6 @@ h3 {
 }
 
 .browser-support {
-    /*border: 1px solid black;*/
     height: auto;
     background: #F8F8F8;
     padding: 30px 50px;
@@ -87,20 +30,15 @@ h3 {
 }
 
 .content {
-    /*float: left;*/
     flex: 3;
-    /*height: auto;*/
 }
 
 .sidebar {
-    /*float: right;*/
     flex: 1;
     border-left: 1px solid #FCC7DD;
-    /*height: 100%;*/
 }
 
 .browser-comp {
-    /*clear: both;*/
     width: 100% height: 100px;
 }
 
@@ -217,10 +155,7 @@ footer {
 .collapse-title {
 	background-color: #FF73B7;
 	color: #fff;
-	/*margin-top: -21px;*/
-	/*line-height: 1em;*/
 	border-radius: 5px;
-	/*height: 50px;*/
 	padding-left: 35px;
 	position: relative;
 }
@@ -228,34 +163,23 @@ footer {
 .collapse-title h2 {
 	display: inline-block;
 	font-weight: 400;
-	/*border: 1px solid black;*/
 }
 
-.collapse-title .arrow-up {
+.collapse-title .arrow {
 	position: absolute;
 	right: 0;
-	/*vertical-align: middle;*/
+	top: 0;
+	cursor: pointer;
 	display: inline-block;
-	/*border: 1px solid black;*/
-	line-height: 63px;
+	border: none;
+	background-color: transparent;
+	line-height: 58px;
 	margin-right: 35px;
 	color: #fff;
 }
 
 .collapse-content {
 	margin: 35px;
-}
-
-.collapse-content-title {
-
-}
-
-.collapse-content-desc-1 {
-
-}
-
-.collapse-content-desc-2 {
-
 }
 
 /*COLORS*/
