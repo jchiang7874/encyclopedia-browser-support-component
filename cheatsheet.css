@@ -287,6 +287,8 @@ body {
 
 .footer-list-item {
 	color: #4E4E4E;
+	font-size: 0.9em;
+	line-height: 1.6em;
 }
 
 .ref.links {
