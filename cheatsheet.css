@@ -46,7 +46,7 @@ body {
 /**/
 
 .desc {
-    color: #7B7B7B;
+    ///////////////////////color: #7B7B7B;
 }
 
 .examples-sec-1 {
@@ -59,9 +59,12 @@ body {
     margin-bottom: -20px;
 }
 
-.example-btn {
+.example-btn, .code-block {
     border: 1px solid #00C6E3;
-    border-radius: 5px;
+}
+
+.example-btn {
+    ///////////////////////border-radius: 5px;
     color: #00C6E3;
     background-color: transparent;
     outline: none;
@@ -74,7 +77,7 @@ body {
 .selected {
     position: relative;
     background: #00C6E3;
-    color: #fff;
+    color: #ffffff;
 }
 
 .selected:after {
@@ -86,7 +89,6 @@ body {
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-color: rgba(0, 198, 227, 0);
     border-top-color: #00C6E3;
     border-width: 8px;
     margin-left: -8px;
@@ -94,11 +96,10 @@ body {
 
 .code-block {
     margin-top: 20px;
-    border: 1px solid #00C6E3;
-    border-radius: 5px;
+    ///////////////////////border-radius: 5px;
     background-color: #F4F9FC;
     padding: 35px;
-    color: #7B7B7B;
+    ///////////////////////color: #7B7B7B;
     font-weight: 300;
     font-size: 18px;
 }
@@ -107,8 +108,7 @@ body {
 /*EXAMPLE*/
 /**/
 
-.example-title,
-.example-desc {
+.example-title, .example-desc {
     margin: 0;
 }
 
@@ -122,17 +122,16 @@ body {
 /**/
 
 .collapse-container {
-	border: 1px solid #E6E2E3;
-	border-radius: 5px;
+	border: 1px solid #FCC7DD;
+	///////////////////////border-radius: 5px;
 	margin-top: 30px;
 	width: 95%;
-	background-color: #FFFAFE;
 }
 
 .collapse-title {
 	background-color: #FF73B7;
-	color: #fff;
-	border-radius: 5px;
+	///////////////////////color: #ffffff;
+	///////////////////////border-radius: 5px;
 	padding-left: 35px;
 	position: relative;
 }
@@ -153,7 +152,7 @@ body {
 	background-color: transparent;
 	line-height: 52px;
 	margin-right: 35px;
-	color: #fff;
+	///////////////////////color: #ffffff;
 }
 
 .collapse-content {
@@ -165,7 +164,7 @@ body {
 /**/
 
 .sidebar-qa {
-	border-bottom: 1px solid #FEDDEA;
+	border-bottom: 1px solid #FCC7DD;
 }
 
 .sidebar {
@@ -201,7 +200,7 @@ body {
 
 .q-icon, .a-icon {
     color: #FDFDFE;
-    border-radius: 50%;
+    ///////////////////////border-radius: 50%;
     height: 20px;
     width: 20px;
     text-align: center;
@@ -235,8 +234,8 @@ body {
 	display: inline-block;
 }
 
-.q-question, .links, .sidebar-method {
-	color: #8A7F85;
+.q-question, .sidebar-method {
+	///////////////////////color: #7B7b7b;
 }
 
 .q-question {
@@ -275,28 +274,6 @@ body {
 	font-size: 1em;
 }
 
-/**/
-/*FOOTER*/
-/**/
-
-.footer-list-item {
-	color: #4E4E4E;
-	font-size: 0.9em;
-	line-height: 1.6em;
-}
-
-.ref.links {
-	color: #7FB5C8;
-}
-
-.footer-list {
-	padding-top: 0;
-	margin: 10px 0 40px;
-}
-
-.footer-title {
-	margin-bottom: 0;
-}
 
 /**/
 /*BROWSER COMPONENT*/
@@ -310,29 +287,22 @@ body {
 
 .support-legend {
     position: absolute;
-    color: #7B7B7B;
-    /*border: 1px solid black;*/
+    ///////////////////////color: #7B7B7B;
 }
 
 .support-legend-square {
     width: 30px;
     height: 22px;
-    border-radius: 3px;
-    display: inline-block;
+    ///////////////////////border-radius: 3px;
+   /////////////////////// display: inline-block;
     margin-right: 10px;
-    /*padding-top: 5px;*/
     position: relative;
     top: 5px;
 }
 
 .support-legend-square + span {
     margin-right: 20px;
-    display: inline-block;
-    /*vertical-align: middle;*/
-    /*border: 1px solid black;*/
-    /*height: 22px;*/
-    /*line-height: 22px;*/
-    /*padding-bottom: 5px;*/
+    ///////////////////////display: inline-block;
 }
 
 
@@ -346,27 +316,26 @@ body {
 }
 
 .br {
-    /*border: 1px solid bla;*/
     border: 1px solid #E6E2E3;
-    background-color: #fff;
-    border-radius: 5px;
+    ///////////////////////background-color: #ffffff;
+    ///////////////////////border-radius: 5px;
     padding: 0 20px 0px 20px;
     margin-bottom: 10px;
 }
 .br-logo {
     width: 40px;
-    display: inline-block;
-    /*padding: 10px;*/
+    /////////////////////display: inline-block;
     vertical-align: middle;
     margin-right: 12px;
 }
 
-.br-name, .br-version-nav, .br-version-list, .br-version {
+.support-legend-square, .support-legend-square + span, .br-logo, .br-name,
+.br-version-nav, .br-version-list, .br-version {
     display: inline-block;
 }
 
 .br-name {
-    color: #7B7B7B;
+    ///////////////////////color: #7B7B7B;
     width: 118px;
 }
 
@@ -384,9 +353,9 @@ body {
 .br-version {
     width: 50px;
     height: 40px;
-    border-radius: 3px;
+    /////////////////////border-radius: 3px;
     margin-right: 7px;
-    color: #fff;
+    ///////////////////////color: #ffffff;
     text-align: center;
     line-height: 40px;
 }
@@ -395,7 +364,7 @@ body {
     width: 60px;
     height: 50px;
     line-height: 50px;
-.}
+}
 
 /**/
 /*Browser Comp - */
@@ -404,10 +373,10 @@ body {
 
 .br-version-content {
 	display: flex;
-	color: #fff;
+	//////////////////////color: #ffffff;
 	padding: 30px 0;
 	position: relative;
-	border-radius: 5px;
+    /////////////////////border-radius: 5px;
 	margin: 30px 10px;
 }
 
@@ -421,13 +390,13 @@ body {
 
 .br-version-col1 {
 	flex: 1;
-	border-right: 1px solid #fff;
+	border-right: 1px solid #ffffff;
 	padding: 0 30px;
 }
 
 .br-version-col2 {
 	flex: 2;
-	border-right: 1px solid #fff;
+	border-right: 1px solid #ffffff;
 	padding: 0 30px;
 }
 
@@ -472,7 +441,7 @@ body {
     width: 18px; 
     height: 18px;
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -488,6 +457,29 @@ body {
     right: 20px;
 }
 
+
+/**/
+/*FOOTER*/
+/**/
+
+.footer-list-item {
+    color: #4E4E4E;
+    font-size: 0.9em;
+    line-height: 1.6em;
+}
+
+.ref.links {
+    color: #7FB5C8;
+}
+
+.footer-list {
+    padding-top: 0;
+    margin: 10px 0 40px;
+}
+
+.footer-title {
+    margin-bottom: 0;
+}
 
 
 /**/
@@ -510,5 +502,30 @@ body {
     background-color: #FFF7FC;
 }
 
+.bkground-white {
+    background-color: #ffffff;
+}
+
+.font-white {
+    color: #ffffff;
+}
+
+.font-grey {
+    color: #7B7B7B;
+}
 
 
+/**/
+/*BORDER RADIUS*/
+/**/
+.bdr-radius-5 {
+    border-radius: 5px;
+}
+
+.bdr-radius-3 {
+    border-radius: 3px;
+}
+
+.bdr-radius-circle {
+    border-radius: 50%;
+}
