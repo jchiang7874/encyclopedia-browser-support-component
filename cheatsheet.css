@@ -26,7 +26,11 @@ body {
 
 
 /**/
+
+
 /*HEADER*/
+
+
 /**/
 
 .header {
@@ -42,7 +46,11 @@ body {
 
 
 /**/
+
+
 /*EXAMPLES SECTION 1 */
+
+
 /**/
 
 .desc {
@@ -59,12 +67,12 @@ body {
     margin-bottom: -20px;
 }
 
-.example-btn, .code-block {
+.example-btn,
+.code-block {
     border: 1px solid #00C6E3;
 }
 
 .example-btn {
-    ///////////////////////border-radius: 5px;
     color: #00C6E3;
     background-color: transparent;
     outline: none;
@@ -96,19 +104,23 @@ body {
 
 .code-block {
     margin-top: 20px;
-    ///////////////////////border-radius: 5px;
     background-color: #F4F9FC;
     padding: 35px;
-    ///////////////////////color: #7B7B7B;
     font-weight: 300;
     font-size: 18px;
 }
 
-/**/
-/*EXAMPLE*/
+
 /**/
 
-.example-title, .example-desc {
+
+/*EXAMPLE*/
+
+
+/**/
+
+.example-title,
+.example-desc {
     margin: 0;
 }
 
@@ -118,89 +130,98 @@ body {
 
 
 /**/
+
+
 /*COLLAPSE*/
+
+
 /**/
 
 .collapse-container {
-	border: 1px solid #FCC7DD;
-	///////////////////////border-radius: 5px;
-	margin-top: 30px;
-	width: 95%;
+    border: 1px solid #FCC7DD;
+    margin-top: 30px;
+    width: 95%;
 }
 
 .collapse-title {
-	background-color: #FF73B7;
-	///////////////////////color: #ffffff;
-	///////////////////////border-radius: 5px;
-	padding-left: 35px;
-	position: relative;
+    background-color: #FF73B7;
+    padding-left: 35px;
+    position: relative;
 }
 
 .collapse-title h2 {
-	display: inline-block;
-	font-weight: 400;
-	margin: 16px 0;
+    display: inline-block;
+    font-weight: 400;
+    margin: 16px 0;
 }
 
 .collapse-title .arrow {
-	position: absolute;
-	right: 0;
-	top: 0;
-	cursor: pointer;
-	display: inline-block;
-	border: none;
-	background-color: transparent;
-	line-height: 52px;
-	margin-right: 35px;
-	///////////////////////color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    line-height: 52px;
+    margin-right: 35px;
 }
 
 .collapse-content {
-	margin: 35px;
+    margin: 35px;
 }
 
+
 /**/
+
+
 /*SIDEBAR - QA*/
+
+
 /**/
 
 .sidebar-qa {
-	border-bottom: 1px solid #FCC7DD;
+    border-bottom: 1px solid #FCC7DD;
 }
 
 .sidebar {
     flex: 1;
     border-left: 1px solid #FCC7DD;
-  	padding: 20px;
-  	line-height: 1.3em;
+    padding: 20px;
+    line-height: 1.3em;
 }
 
-.sidebar-qa-title, .sidebar-qa-subtitle {
-	margin: 0;
+.sidebar-qa-title,
+.sidebar-qa-subtitle {
+    margin: 0;
 }
 
-.sidebar-qa-title, .sidebar-method-title {
-	color: #EF88B6;
-	font-weight: 300;
-	font-size: 20px;
+.sidebar-qa-title,
+.sidebar-method-title {
+    color: #EF88B6;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .sidebar-qa-subtitle {
-	color: #E993BA;
-	line-height: 1.618em;
+    color: #E993BA;
+    line-height: 1.618em;
 }
 
-.sidebar-qa-content, .related-questions {
-	font-size: 15px;
+.sidebar-qa-content,
+.related-questions {
+    font-size: 15px;
 }
 
-.question, .answer {
-	position: relative;
-	margin-top: 5px;
+.question,
+.answer {
+    position: relative;
+    margin-top: 5px;
 }
 
-.q-icon, .a-icon {
+.q-icon,
+.a-icon {
     color: #FDFDFE;
-    ///////////////////////border-radius: 50%;
     height: 20px;
     width: 20px;
     text-align: center;
@@ -217,66 +238,73 @@ body {
 }
 
 .a-icon {
-	background-color: #E3C6D4;
-	margin-top: 0;
+    background-color: #E3C6D4;
+    margin-top: 0;
 }
 
 .a-answer {
-	color: #E6D3DC;
-	margin-top: 0;
+    color: #E6D3DC;
+    margin-top: 0;
 }
 
 .a-answer.yes {
-	color: #70D381;
+    color: #70D381;
 }
 
-.q-question, .a-answer, .related-questions {
-	display: inline-block;
+.q-question,
+.a-answer,
+.related-questions {
+    display: inline-block;
 }
 
-.q-question, .sidebar-method {
-	///////////////////////color: #7B7b7b;
-}
+.q-question,
+.sidebar-method {}
 
 .q-question {
-	width: 80%;
-	margin-bottom: 0;
+    width: 80%;
+    margin-bottom: 0;
 }
 
-.q-question, .a-answer {
-	margin-left: 30px;
+.q-question,
+.a-answer {
+    margin-left: 30px;
 }
 
 .links {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .related-questions {
-	font-weight: 900;
-	margin: 20px 0;
+    font-weight: 900;
+    margin: 20px 0;
 }
 
 .list {
-	padding: 0;
-	margin-top: 5px;
-	list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    list-style: none;
 }
 
 .method-link {
-	color: #AEA5AA;
+    color: #AEA5AA;
 }
 
-.sidebar-method-content, .sidebar-method-subtitle {
-	margin: 5px 0;
+.sidebar-method-content,
+.sidebar-method-subtitle {
+    margin: 5px 0;
 }
 
 .sidebar-method-subtitle {
-	font-size: 1em;
+    font-size: 1em;
 }
 
 
 /**/
+
+
 /*BROWSER COMPONENT*/
+
+
 /**/
 
 .browser-comp {
@@ -287,14 +315,11 @@ body {
 
 .support-legend {
     position: absolute;
-    ///////////////////////color: #7B7B7B;
 }
 
 .support-legend-square {
     width: 30px;
     height: 22px;
-    ///////////////////////border-radius: 3px;
-   /////////////////////// display: inline-block;
     margin-right: 10px;
     position: relative;
     top: 5px;
@@ -302,60 +327,58 @@ body {
 
 .support-legend-square + span {
     margin-right: 20px;
-    ///////////////////////display: inline-block;
 }
 
-
-
 .br-container:before {
-   content: "";
-   display: block;
-   width: 1px;
-   height: 1px;
-   padding-top: 80px;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 1px;
+    padding-top: 80px;
 }
 
 .br {
     border: 1px solid #E6E2E3;
-    ///////////////////////background-color: #ffffff;
-    ///////////////////////border-radius: 5px;
     padding: 0 20px 0px 20px;
     margin-bottom: 10px;
 }
+
 .br-logo {
     width: 40px;
-    /////////////////////display: inline-block;
     vertical-align: middle;
     margin-right: 12px;
 }
 
-.support-legend-square, .support-legend-square + span, .br-logo, .br-name,
-.br-version-nav, .br-version-list, .br-version {
+.support-legend-square,
+.support-legend-square + span,
+.br-logo,
+.br-name,
+.br-version-nav,
+.br-version-list,
+.br-version {
     display: inline-block;
 }
 
 .br-name {
-    ///////////////////////color: #7B7B7B;
-    width: 118px;
+    width: 120px;
 }
 
 .br-name.ms {
-	color: #26C5F5;
+    color: #26C5F5;
 }
+
 .br-name.ff {
-	color: #E8815A;
+    color: #E8815A;
 }
 
 .br-name.google {
-	color: #888888;
+    color: #888888;
 }
 
 .br-version {
     width: 50px;
     height: 40px;
-    /////////////////////border-radius: 3px;
     margin-right: 7px;
-    ///////////////////////color: #ffffff;
     text-align: center;
     line-height: 40px;
 }
@@ -366,100 +389,100 @@ body {
     line-height: 50px;
 }
 
-/**/
-/*Browser Comp - */
+
 /**/
 
+
+/*Browser Comp - */
+
+
+/**/
 
 .br-version-content {
-	display: flex;
-	//////////////////////color: #ffffff;
-	padding: 30px 0;
-	position: relative;
-    /////////////////////border-radius: 5px;
-	margin: 30px 10px;
+    display: flex;
+    padding: 30px 0;
+    position: relative;
+    margin: 30px 10px;
 }
 
 .fa-caret-up {
-	position: absolute;
-	color: #F3A75B;
-	top: -32px;
-    left: 285px;
-
+    position: absolute;
+    color: #F3A75B;
+    top: -32px;
+    left: 287px;
 }
 
 .br-version-col1 {
-	flex: 1;
-	border-right: 1px solid #ffffff;
-	padding: 0 30px;
+    flex: 1;
+    border-right: 1px solid #ffffff;
+    padding: 0 30px;
 }
 
 .br-version-col2 {
-	flex: 2;
-	border-right: 1px solid #ffffff;
-	padding: 0 30px;
+    flex: 2;
+    border-right: 1px solid #ffffff;
+    padding: 0 30px;
 }
 
 .br-version-col3 {
-	flex: 3;
-	padding: 0 30px;
+    flex: 3;
+    padding: 0 30px;
 }
 
 .br-col-title {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 .br-support {
-	list-style: none;
-	counter-reset: num;
-
-	position: relative;
+    list-style: none;
+    counter-reset: num;
+    position: relative;
 }
 
 .br-updated-date {
-	font-size: 0.7em;
-	margin-top:30px;
+    font-size: 0.7em;
+    margin-top: 30px;
 }
 
 .br-percent {
-	float: right;
+    float: right;
 }
 
 .br-support-items {
-	font-size: 0.8em;
-	line-height: 18px;
+    font-size: 0.8em;
+    line-height: 18px;
     padding: 10px 0;
 }
 
 .br-support-items:before {
-	counter-increment: num;
+    counter-increment: num;
     content: counter(num);
-
     text-align: center;
     line-height: 18px;
-    
-    width: 18px; 
+    width: 18px;
     height: 18px;
     background: transparent;
     border: 1px solid #ffffff;
-    
     -moz-border-radius: 50%;
     border-radius: 50%;
-
     float: left;
     position: absolute;
     left: 0;
 }
 
 .fa-times {
-	position: absolute;
-	top: 23px;
+    position: absolute;
+    top: 23px;
     right: 20px;
 }
 
 
 /**/
+
+
 /*FOOTER*/
+
+
 /**/
 
 .footer-list-item {
@@ -483,7 +506,11 @@ body {
 
 
 /**/
+
+
 /*COLORS*/
+
+
 /**/
 
 .green {
@@ -516,8 +543,13 @@ body {
 
 
 /**/
+
+
 /*BORDER RADIUS*/
+
+
 /**/
+
 .bdr-radius-5 {
     border-radius: 5px;
 }
