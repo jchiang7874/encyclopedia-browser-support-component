@@ -367,6 +367,18 @@ body {
 
 .br-name {
     color: #7B7B7B;
+    width: 118px;
+}
+
+.br-name.ms {
+	color: #26C5F5;
+}
+.br-name.ff {
+	color: #E8815A;
+}
+
+.br-name.google {
+	color: #888888;
 }
 
 .br-version {
@@ -383,7 +395,100 @@ body {
     width: 60px;
     height: 50px;
     line-height: 50px;
+.}
+
+/**/
+/*Browser Comp - */
+/**/
+
+
+.br-version-content {
+	display: flex;
+	color: #fff;
+	padding: 30px 0;
+	position: relative;
+	border-radius: 5px;
+	margin: 30px 10px;
 }
+
+.fa-caret-up {
+	position: absolute;
+	color: #F3A75B;
+	top: -32px;
+    left: 285px;
+
+}
+
+.br-version-col1 {
+	flex: 1;
+	border-right: 1px solid #fff;
+	padding: 0 30px;
+}
+
+.br-version-col2 {
+	flex: 2;
+	border-right: 1px solid #fff;
+	padding: 0 30px;
+}
+
+.br-version-col3 {
+	flex: 3;
+	padding: 0 30px;
+}
+
+.br-col-title {
+	margin-top: 0;
+}
+
+.br-support {
+	list-style: none;
+	counter-reset: num;
+
+	position: relative;
+}
+
+.br-updated-date {
+	font-size: 0.7em;
+	margin-top:30px;
+}
+
+.br-percent {
+	float: right;
+}
+
+.br-support-items {
+	font-size: 0.8em;
+	line-height: 18px;
+    padding: 10px 0;
+}
+
+.br-support-items:before {
+	counter-increment: num;
+    content: counter(num);
+
+    text-align: center;
+    line-height: 18px;
+    
+    width: 18px; 
+    height: 18px;
+    background: transparent;
+    border: 1px solid #fff;
+    
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    float: left;
+    position: absolute;
+    left: 0;
+}
+
+.fa-times {
+	position: absolute;
+	top: 23px;
+    right: 20px;
+}
+
+
 
 /**/
 /*COLORS*/
