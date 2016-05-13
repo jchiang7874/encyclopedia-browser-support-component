@@ -1,6 +1,8 @@
 # encyclopedia-browser-support-component
 ##Team: Astonishing-Nile-Crocodile [Jennifer Chiang, Jake Tom]
 
+#[Github Pages Site](http://srsjake.github.io/encyclopedia-browser-support-component/)
+
 As the teams were reduced to two members, we thought this would be a good opportunity to capitalize on the benefits of pair programming. We had 2-3 hour sessions every couple of days and implemented the layout via screenshare on Skype. While more time consuming than attacking the project on our own time, there were indeed many great aspects to this approach . The benefits included:
 
 - Going back and forth about how to approach sections and voicing all our internalized knowledge was helpful in refining our understanding of fundamental concepts.
