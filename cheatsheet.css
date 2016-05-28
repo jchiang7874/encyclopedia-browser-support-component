@@ -12,7 +12,6 @@ body {
 
 .browser-support {
     height: 100%;
-    background: #F8F8F8;
     padding: 30px 50px;
 }
 
@@ -40,6 +39,9 @@ body {
     font-size: 3em;
 }
 
+.header-title {
+    color: #9599F4;
+}
 
 /**/
 /*EXAMPLES SECTION 1 */
@@ -115,13 +117,12 @@ body {
 /**/
 
 .collapse-container {
-	border: 1px solid #FCC7DD;
 	margin-top: 30px;
 	width: 95%;
 }
 
 .collapse-title {
-	background-color: #FF73B7;
+	background-color: #9599F4;
 	padding-left: 35px;
 	position: relative;
     display: inline-block;
@@ -148,19 +149,19 @@ body {
 
 .collapse-content {
 	margin: 35px;
+    padding-bottom: 20px;
 }
 
 /**/
 /*SIDEBAR - QA*/
 /**/
-
+/*
 .sidebar-qa {
 	border-bottom: 1px solid #FCC7DD;
-}
+}*/
 
 .sidebar {
     flex: 1;
-    border-left: 1px solid #FCC7DD;
   	padding: 20px;
   	line-height: 1.3em;
 }
@@ -202,22 +203,28 @@ body {
 }
 
 .q-icon {
-    background-color: #FABDDB;
+    background-color: #AABAC4;
     margin-bottom: 0;
 }
 
-.a-icon {
-	background-color: #E3C6D4;
-	margin-top: 0;
+.a-icon, .a-answer {
+    margin-top: 0;
 }
 
-.a-answer {
-	color: #E6D3DC;
-	margin-top: 0;
+.a-icon.yes {
+	background-color: #9AD49C;
+}
+
+.a-icon.no {
+    background-color: #FDA7A8;
+}
+
+.a-answer.no {
+	color: #F89A9E;
 }
 
 .a-answer.yes {
-	color: #70D381;
+	color: #40B745;
 }
 
 .q-question, .a-answer, .related-questions {
@@ -238,8 +245,15 @@ body {
 }
 
 .related-questions {
-	font-weight: 900;
-	margin: 20px 0;
+    font-weight: 900;
+    border-bottom: 1px solid #9599F4;
+    margin: 20px 5px;
+    padding: 10px 5px;
+    width: 100%;
+}
+
+.fa-angle-right {
+    float: right;
 }
 
 .list {
@@ -352,19 +366,19 @@ body {
 
 .br-version-content {
 	display: flex;
-	padding: 30px 0;
+	/*padding: 30px 0;*/
 	margin: 30px 10px;
 }
 
 .fa-caret-up {
     position: absolute;
-    color: #F3A75B;
+    color: #FFFFFF;
     bottom: -47px;
     left: 118px;
 }
 
 .br-version-col1, .br-version-col2 {
-    border-right: 1px solid #ffffff;
+    border-right: 1px solid #7B7B7B;
 }
 
 
@@ -419,7 +433,7 @@ body {
     width: 18px; 
     height: 18px;
     background: transparent;
-    border: 1px solid #ffffff;
+    border: 1px solid #9599F4;
     
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -427,6 +441,8 @@ body {
     float: left;
     position: absolute;
     left: 0;
+
+    color: #9599F4;
 }
 
 .close-x {
@@ -473,20 +489,20 @@ body {
 /**/
 
 .green {
-    background-color: #5DD170;
+    background-color: #8CB930;
 }
 
 .orange {
-    background-color: #F3A75B;
+    background-color: #E6D332;
 }
 
 .red {
-    background-color: #FF6668;
+    background-color: #E35A3C;
 }
-
+/*
 .light-pink {
     background-color: #FFF7FC;
-}
+}*/
 
 .bkground-white {
     background-color: #ffffff;
@@ -498,6 +514,18 @@ body {
 
 .font-grey {
     color: #7B7B7B;
+}
+
+.light-purple {
+    background-color: #F3F3FA;
+}
+
+.purple {
+    background-color: #9599F4;
+}
+
+.font-purple {
+    color: #9599F4;
 }
 
 
