@@ -203,7 +203,7 @@ body {
 }
 
 .q-icon {
-    background-color: #FABDDB;
+    background-color: #AABAC4;
     margin-bottom: 0;
 }
 
@@ -366,7 +366,7 @@ body {
 
 .br-version-content {
 	display: flex;
-	padding: 30px 0;
+	/*padding: 30px 0;*/
 	margin: 30px 10px;
 }
 
