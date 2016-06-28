@@ -1,38 +1,142 @@
-var data = {
-  /* Add your data here */
-  name: ".sort()",
+/*Browser Support Section - Each browser has an array of objects with a
+version number property. All the information for that version is added
+as subsequent properties. The version numbers are arranged this way so
+the version list for each browser can be extended and reduced as needed.*/
 
-  description: "The sort() method sorts the elements of an array in place and returns the array. The sort is not necessarily stable. The default sort order is according to string Unicode code points.",
-
-  examples: [
+{
+  "name": ".sort()",
+  "description": "Lorem ipsum...",
+  "examples": [
     {
-      title: "First Example Title",
-      code: "var arr = []; ... "
+      "title": "Example 1",
+      "description": "Sorting an array of numbers",
+      "javascript": "Example code",
+      "result": "[3,7,9]",
+      "explanation": "In this example, we...."
     },
     {
-    	title: "Second Example Title",
-    	code: "var arr = []; ... "
+      "title": "Example 2",
+      "description": "Sorting an array of numbers",
+      "javascript": "Example code",
+      "result": "[3,7,9]",
+      "explanation": "In this example, we...."
     }
-  ]
-}; //data.examples[0].title => "First Example Title"
-
-var syntax = {
-	name: "Subtitle Here",
-	description: "Explanation goes here.",
-	code: "var myArray = [6, 5, 4, 3, 1, 2]; \n myArray.sort(); \n console.log(myArray); // -> 1, 2, 3, 4, 5, 6"
+  ],
+  "syntax": [
+    {
+      "subtitle": "Syntax 1",
+      "description": "Syntax 1 description"
+    }
+  ],
+  "additionalExamples": [
+    {
+      "title": "Example 1",
+      "description": "Sorting an array of numbers",
+      "javascript": "Example code",
+      "result": "[3,7,9]",
+      "explanation": "In this example, we...."
+    },
+    {
+      "title": "Example 2",
+      "description": "Sorting an array of numbers",
+      "javascript": "Example code",
+      "result": "[3,7,9]",
+      "explanation": "In this example, we...."
+    },
+    {
+      "title": "Example 3",
+      "description": "Sorting an array of numbers",
+      "javascript": "Example code",
+      "result": "[3,7,9]",
+      "explanation": "In this example, we...."
+    }
+  ],
+  "bestPractices": [
+    {
+      "title": "Best Practice 1",
+      "description": "Always remember to..."
+    }
+  ],
+  "browserSupport": {
+    "internetExplorer": [
+      {
+        "version": "7",
+        "support": "Partial",
+        "users": {
+          "unitedStates": "12%",
+          "worldWide": "3%",
+          "updated": "12th January, 2016"
+        },
+        "howToSupport": [
+          "This is the first way",
+          "This is the second way"
+        ],
+        "shouldYouSupport": [
+          "This is the first tip",
+          "This is the second tip"
+        ]
+      },
+      {
+        "version": "8",
+        "support": "Partial",
+        "users": {
+          "unitedStates": "10%",
+          "worldWide": "5%",
+          "updated": "12th January, 2016"
+        },
+        "howToSupport": [
+          "This is the first way",
+          "This is the second way"
+        ],
+        "shouldYouSupport": [
+          "This is the first tip",
+          "This is the second tip"
+        ]
+      }
+    ],
+    "edge": [
+      {}
+    ],
+    "fireFox": [
+      {}
+    ],
+    "chrome": [
+      {}
+    ]
+  },
+  "QAList": [
+    {
+      "question": "How do I create custom sort?",
+      "anwered": "Yes"
+    },
+    {
+      "question": "How do I create custom sort?",
+      "anwered": "Yes"
+    }
+  ],
+  "otherMethods": {
+    "native": [
+      "Method 1",
+      "Method 2",
+      "Method 3"
+    ],
+    "nonNative": [
+      {
+        "category": "Lodash",
+        "methods": [
+          "Method 1",
+          "Method 2",
+          "Method 3"
+        ]
+      },
+      {
+        "category": "Lodash",
+        "methods": [
+          "Method 1",
+          "Method 2",
+          "Method 3"
+        ]
+      }
+    ]
+  }
 }
-
-var tips = {
-	name: "Subtitle Here",
-	description: "Explanation goes here.",
-	details: [ "First details of tip", "Second details of tip"]
-}
-
-/*
-$(document).ready(function(){
-  $('#example').load('example-template.html'); //#add-examps 
-  $('#syntax').load('syntax-template.html');
-  $('#more-examples').load('more-examp-template.html');
-  $('#tips').load('tips-template.html');
-});*/
-
