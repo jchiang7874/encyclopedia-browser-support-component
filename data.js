@@ -130,7 +130,7 @@ the version list for each browser can be extended and reduced as needed.*/
         ]
       },
       {
-        "category": "Lodash",
+        "category": "Modern Developer",
         "methods": [
           "Method 1",
           "Method 2",
