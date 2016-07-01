@@ -22,3 +22,8 @@ After laying out these sections, we proceeded to go into them individually and m
 
 CSS was organized by following a content-area-prefixed naming style to avoid an overlap of the namespace between different sections. After finishing the initial version of the layout, we optimized the CSS by assigning common properties like background colors, font colors and border-radius to separate classes in themselves. This made our styles easier to read and modify.
 
+## Encyclopedia Entries
+
+We split them evenly, Jennifer took care of the articles on `<dt>`, `box-sizing` and `Number.prototype.toExponential()`.
+Jake took care of the articles on `<var>`, `text-overflow` and `window.print()`. 
+
